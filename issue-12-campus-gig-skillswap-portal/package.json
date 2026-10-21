@@ -1,0 +1,23 @@
+{
+  "name": "campusconnect-root",
+  "version": "1.0.0",
+  "description": "Campus Gig & SkillSwap Portal — HacktoberFest 3.0",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "client": "npm --prefix frontend run dev",
+    "dev": "node runner.js",
+    "test": "node backend/test_api.js",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "hackathon",
+    "campus-gig",
+    "skillswap",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "team-bhai-issue-hougya",
+  "license": "MIT"
+}
